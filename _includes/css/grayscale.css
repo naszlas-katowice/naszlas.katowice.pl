@@ -30,11 +30,13 @@ h6 {
     letter-spacing: 1px;
 }
 
-p {
+p, .p {
     margin: 0 0 25px;
     font-size: 18px;
+    font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1.5;
 }
+
 
 @media(min-width:767px) {
     p {
@@ -59,6 +61,10 @@ a:focus {
 
 .light {
     font-weight: 400;
+}
+
+.orange {
+    color:#DB9129;
 }
 
 .navbar-custom {
@@ -275,7 +281,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 100px;
     }
 
     .download-section {
@@ -308,6 +314,10 @@ a:focus {
     outline: 0;
     color: {{ site.color.primary-dark }};
     background-color: {{ site.color.links }};
+}
+
+ul {
+    line-height:1.5;
 }
 
 ul.banner-social-buttons {
